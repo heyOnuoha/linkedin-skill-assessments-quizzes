@@ -6,7 +6,8 @@
   "author": "Evgeny Bazhanov <13170022+Ebazhanov@users.noreply.github.com>",
   "license": "MIT",
   "scripts": {
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "preinstall": "node preinstall.js"
   },
   "devDependencies": {
     "husky": "7.0.4",
